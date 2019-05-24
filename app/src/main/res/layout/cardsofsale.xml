@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:contentPadding="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/sample"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="2dp"
+            android:id="@+id/header">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="₹400000000"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/cost" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/likebutton"
+                />
+        </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/header"
+                android:layout_margin="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PORSCHE CAYENNE DIESEL"
+                    android:textColor="@android:color/black"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:id="@+id/heading"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:maxLines="1"
+                    android:id="@+id/description"
+                    android:text="2013-52000Km"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_location_on_black_24dp"
+                        android:layout_marginRight="4dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SHYAM NAGAR, JAIPUR"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/locationofsale"
+                        android:maxLines="1"
+                        android:textSize="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

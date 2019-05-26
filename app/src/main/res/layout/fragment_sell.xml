@@ -61,14 +61,26 @@
                     android:layout_marginLeft="10dp"
                     android:tint="@color/colorPrimary"
                     android:src="@drawable/ic_search_black_24dp"/>
+
                 <android.support.design.widget.TextInputEditText
                     android:id="@+id/name_edit_text"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:hintEnabled="false"
-                    android:maxLines="1"
                     android:layout_margin="8dp"
-                    android:hint="Find Cars,Mobiles and more..." />
+                    android:hint="Find Beds,Rooms,Apartments"
+                    android:maxLines="1"
+                    app:hintEnabled="false" />
+
+                <ImageButton
+                    android:id="@+id/filter_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/filter_round"
+                    android:background="#FFFFFF"
+
+
+                    />
+
             </LinearLayout>
         </LinearLayout>
         <GridView

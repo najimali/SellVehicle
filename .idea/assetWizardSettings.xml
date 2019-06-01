@@ -74,7 +74,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="scalingPercent" value="53" />
+                                                <entry key="scalingPercent" value="46" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -98,11 +98,10 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="filter1" />
-                                      <entry key="foregroundImage" value="C:\Users\Care\Desktop\filter.png" />
-                                      <entry key="foregroundLayerName" value="money1" />
-                                      <entry key="outputName" value="filter" />
+                                      <entry key="foregroundImage" value="C:\Users\Care\Desktop\fb.jpg" />
+                                      <entry key="foregroundLayerName" value="fb" />
+                                      <entry key="outputName" value="fb1" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -175,7 +174,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/maps/ic_navigation_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/communication/ic_phone_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -186,11 +185,12 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="height" value="512" />
-                            <entry key="outputName" value="ic_money" />
+                            <entry key="autoMirrored" value="true" />
+                            <entry key="height" value="40" />
+                            <entry key="outputName" value="ic_gmail" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\Care\Desktop\money.svg" />
-                            <entry key="width" value="512" />
+                            <entry key="sourceFile" value="C:\Users\Care\Desktop\gmail.svg" />
+                            <entry key="width" value="40" />
                           </map>
                         </option>
                       </PersistentState>
